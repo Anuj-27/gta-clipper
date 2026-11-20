@@ -1,0 +1,15 @@
+# GTA Clipper - Python 3.12 (Windows x64)
+# Core media tooling
+yt-dlp>=2025.1.1
+faster-whisper>=1.1.0
+numpy>=1.26,<3
+opencv-python-headless>=4.9
+soundfile>=0.12
+scenedetect>=0.6.4
+
+# Desktop UI
+PySide6>=6.7
+
+# Live chat
+chat-downloader>=0.2.8
+requests>=2.31

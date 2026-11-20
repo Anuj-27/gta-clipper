@@ -1,0 +1,26 @@
+# Virtual environments & portable runtimes
+.venv/
+venv/
+env/
+runtime/
+
+# Bundled large binaries & local AI models (>100 MB, exceed GitHub file limit)
+bin/*.exe
+models/
+
+# Generated clips, temp downloads, logs & local SQLite history
+clips/*.mp4
+clips/*.jpg
+clips/*.txt
+temp/
+logs/
+database/*.db
+database/*.db-shm
+database/*.db-wal
+
+# Python bytecode & test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+tests/screens/

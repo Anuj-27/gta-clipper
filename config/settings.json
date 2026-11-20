@@ -1,0 +1,57 @@
+{
+  "clip": {
+    "duration": 40,
+    "pre_event": 20,
+    "post_event": 10,
+    "max_clips": 30,
+    "min_gap": 45
+  },
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "video_crf": 20,
+    "preset": "veryfast",
+    "audio_bitrate": "192k",
+    "smart_crop": true,
+    "background_music": false,
+    "music_path": "",
+    "music_volume": 0.12
+  },
+  "download": {
+    "quality": "1080p"
+  },
+  "whisper": {
+    "model": "small",
+    "device": "auto",
+    "compute_type": "auto",
+    "language": ""
+  },
+  "captions": {
+    "enabled": true,
+    "style": "bold_pop",
+    "font": "Arial Black",
+    "font_size": 78,
+    "primary_color": "#FFFFFF",
+    "highlight_color": "#FFE400",
+    "outline_color": "#000000",
+    "words_per_line": 3,
+    "position": "lower"
+  },
+  "detection": {
+    "sensitivity": 0.6,
+    "window_seconds": 10,
+    "weights": {
+      "chat": 0.3,
+      "audio": 0.25,
+      "speech": 0.2,
+      "scene": 0.15,
+      "emotion": 0.1
+    }
+  },
+  "live": {
+    "segment_seconds": 5,
+    "buffer_minutes": 10,
+    "reconnect_attempts": 20,
+    "cooldown_seconds": 60
+  }
+}
